@@ -1,8 +1,38 @@
 [
     {
-        "questions": "",
-        "answers": [
-            {}
-        ]
+      "question": "What is the correct way to create a function in Python?",
+      "answers": [
+        { "text": "function myFunction():", "isCorrect": false },
+        { "text": "def myFunction():", "isCorrect": true },
+        { "text": "create myFunction():", "isCorrect": false },
+        { "text": "define myFunction():", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How do you insert comments in Python code?",
+      "answers": [
+        { "text": "// This is a comment", "isCorrect": false },
+        { "text": "# This is a comment", "isCorrect": true },
+        { "text": "/* This is a comment */", "isCorrect": false },
+        { "text": "-- This is a comment", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What data type is the result of: 3 / 2 in Python?",
+      "answers": [
+        { "text": "int", "isCorrect": false },
+        { "text": "float", "isCorrect": true },
+        { "text": "bool", "isCorrect": false },
+        { "text": "str", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which of these is used to handle exceptions in Python?",
+      "answers": [
+        { "text": "try...except", "isCorrect": true },
+        { "text": "do...catch", "isCorrect": false },
+        { "text": "try...catch", "isCorrect": false },
+        { "text": "handle...error", "isCorrect": false }
+      ]
     }
-]
+  ]
